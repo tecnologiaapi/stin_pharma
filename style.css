@@ -1,0 +1,176 @@
+/* Definições básicas e fonte */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e8b7ac; /* Cor de fundo salmão/rosê */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Div de fundo externo */
+.background-outer {
+    width: 100%;
+    background-color: #e8b7ac;
+    padding: 20px 0;
+    position: relative;
+}
+
+/* Container centraliza o conteúdo */
+.container {
+    width: 90%;
+    max-width: 650px;
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    margin: 0 auto; /* Centraliza o container na tela */
+}
+
+/* ESTILO PARA O LOGO FLUTUANTE (VISÍVEL EM TELA GRANDE) */
+.logo-container-float {
+    width: 95%; 
+    padding: 0 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end; /* Alinha o logo à direita */
+}
+
+.logo-float {
+    max-width: 150px; 
+    height: auto;
+}
+
+/* Media Query: Oculta o logo flutuante em telas pequenas (mobile) */
+@media (max-width: 768px) {
+    .logo-container-float {
+        display: none; 
+    }
+}
+
+/* Estilo dos títulos e cabeçalhos */
+h1, h2 {
+    color: #004d40;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #00796b;
+    border-bottom: 2px solid #e0f2f1;
+    padding-bottom: 5px;
+}
+
+h4 {
+    color: #128c7e;
+    margin-top: 20px;
+}
+
+/* Separador */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 30px 0;
+}
+
+/* Estilo das Mensagens (Seção 1 e 2) */
+.section-message {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.section-message p {
+    margin: 8px 0;
+}
+
+.section-message address {
+    margin-top: 15px;
+    font-style: normal;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Link do Vídeo (destaque) */
+.video-link-container {
+    margin: 20px 0;
+    text-align: center;
+}
+.video-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.video-link:hover {
+    background-color: #cc3700;
+}
+
+/* SEÇÃO DE CADASTRO */
+.cadastro-title {
+    color: #d88c00;
+    margin-bottom: 20px;
+}
+
+.cadastro-box {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+/* Listas de dados e documentos */
+.dados-lista, .documentos-lista, .cnae-lista {
+    list-style: none;
+    padding-left: 0;
+}
+
+.dados-lista li, .documentos-lista li, .cnae-lista li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.observacao-box {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #fffde7;
+    border: 1px solid #ffe082;
+    border-radius: 5px;
+}
+
+/* Botão de WhatsApp */
+.whatsapp-button {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    background-color: #25d366;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+}
+
+.whatsapp-button i {
+    margin-right: 10px;
+}
+
+.nota {
+    text-align: center;
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 10px;
+}
