@@ -141,6 +141,65 @@ hr {
     border-radius: 5px;
 }
 
+/* --- ESTILOS PARA A NOVA SEÇÃO DE DOWNLOADS --- */
+
+.download-section {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.download-title {
+    color: #ff4500; /* Cor de destaque */
+    margin-bottom: 25px;
+    font-size: 1.6em;
+}
+
+.download-box {
+    background: #e0f7fa; /* Fundo azul claro para destaque */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #b2ebf2;
+}
+
+.download-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 20px 0;
+}
+
+.download-list li {
+    margin: 10px 0;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #00bcd4; /* Azul mais forte */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px; /* Botão arredondado */
+    font-weight: bold;
+    transition: background-color 0.3s;
+    min-width: 250px;
+    text-align: left;
+}
+
+.download-link:hover {
+    background-color: #0097a7;
+}
+
+.download-link i {
+    margin-right: 10px;
+}
+
+.nota-download {
+    font-size: 0.9em;
+    color: #00796b;
+    margin-top: 20px;
+    font-style: italic;
+}
+
 /* Botão de WhatsApp */
 .whatsapp-button {
     display: block;
