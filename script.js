@@ -3,27 +3,26 @@ document.addEventListener('DOMContentLoaded', function() {
     const phoneNumber = "5511947412026"; // Exemplo: 55 (código do país) + 11 (DDD) + 999998888 (número)
 
     // Mensagem que o médico verá pré-preenchida ao clicar no botão
-    const welcomeMessage = "Olá, escaneei o QR Code do evento Dr. Pablo Mello – Implantes e gostaria de iniciar meu cadastro na Stin Pharma.\n\n" +
-                           "*DADOS PARA CADASTRO*\n\n" +
-                           "*CADASTRO PESSOA FÍSICA*\n" +
-                           "➡️Nome completo:\n" +
-                           "➡️Número do CRM:\n" +
-                           "➡️CPF/CNPJ:\n" +
-                           "➡️RG OU CNH:\n" +
-                           "➡️Email:\n" +
-                           "➡️Endereço Completo de Entrega:\n" +
-                           "➡️CEP:\n" +
-                           "➡️Telefones:\n\n" +
-                           "DOCUMENTOS NECESSÁRIOS\n" +
-                           "1. ➡️Cópia (foto): Carteira do Conselho (FRENTE E VERSO), se não possuir, pode ser a declaração e um documento com foto;\n" +
-                           "2. ➡️Cópia (foto): RG/CPF OU CNH;\n" +
-                           "3. ➡️Cópia (foto): Comprovante de Residência (em nome do titular do cadastro);\n" +
-                           "4. ➡️Termo de Fornecimento/ Termo de Responsabilidades, preenchidos e assinados. (Legível)\n\n" +
-                           "*CADASTRO CNPJ*\n" +
-                           "➡️Faturamento para o CNPJ\n" +
-                           "➡️Cópia (foto): Contrato social\n" +
-                           "➡️Cópia (foto): Alvará de funcionamento\n" +
-                           "➡️Cópia (foto): Alvara da vigilância Sanitária.";
+    const welcomeMessage = "Olá, escaneei o QR Code do evento Certificação de Implantes Hormonais - Dr. Pablo Mello e gostaria de avançar com meu cadastro na Stin Pharma.\n\n" +
+                           "--- 🗂️ CADASTRO – PESSOA FÍSICA ---\n" +
+                           "DADOS NECESSÁRIOS\n" +
+                           "• Nome completo:\n" +
+                           "• CRM:\n" +
+                           "• CPF ou CNPJ:\n" +
+                           "• RG ou CNH:\n" +
+                           "• E-mail:\n" +
+                           "• Endereço completo (com CEP):\n" +
+                           "• Telefones:\n\n" +
+                           "DOCUMENTOS (Enviar fotos):\n" +
+                           "1. Carteira do Conselho (frente e verso) ou declaração + documento com foto:\n" +
+                           "2. RG/CPF ou CNH:\n" +
+                           "3. Comprovante de residência (em nome do titular):\n" +
+                           "4. Termo de Fornecimento e Termo de Responsabilidade preenchidos e assinados (legíveis):\n\n" +
+                           "--- 🗂️ CADASTRO – CNPJ ---\n" +
+                           "• Faturamento pelo CNPJ (Sim/Não):\n" +
+                           "• Contrato Social (foto):\n" +
+                           "• Alvará de Funcionamento:\n" +
+                           "• Alvará da Vigilância Sanitária:";
 
     // Codifica a mensagem para URL
     const encodedMessage = encodeURIComponent(welcomeMessage);
