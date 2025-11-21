@@ -28,15 +28,22 @@ body {
     margin: 0 auto; /* Centraliza o container na tela */
 }
 
-/* ESTILOS PARA O LOGO CENTRALIZADO */
+/* ESTILOS PARA O LOGO CENTRALIZADO (MODIFICADO) */
 .logo-inside-container {
     text-align: center; /* Centraliza a imagem */
-    margin-bottom: 20px; /* Adiciona um espaço abaixo do logo */
+    /* Ajuste de espaçamento interno para o logo */
+    padding-top: 5px; 
+    padding-bottom: 20px; 
 }
 
 .logo-main {
-    max-width: 200px; /* Aumentei um pouco o tamanho para ficar mais proeminente no centro */
+    /* GARANTE A RESPONSIVIDADE: A imagem ocupa 100% da largura disponível */
+    max-width: 100%; 
+    /* Define uma largura ideal para telas maiores */
+    width: 350px; 
     height: auto;
+    display: block; 
+    margin: 0 auto; /* Centraliza o bloco da imagem */
 }
 
 /* Estilo dos títulos e cabeçalhos */
