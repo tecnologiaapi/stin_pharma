@@ -28,25 +28,15 @@ body {
     margin: 0 auto; /* Centraliza o container na tela */
 }
 
-/* ESTILO PARA O LOGO FLUTUANTE (VISÍVEL EM TELA GRANDE) */
-.logo-container-float {
-    width: 95%; 
-    padding: 0 10px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: flex-end; /* Alinha o logo à direita */
+/* ESTILOS PARA O LOGO CENTRALIZADO */
+.logo-inside-container {
+    text-align: center; /* Centraliza a imagem */
+    margin-bottom: 20px; /* Adiciona um espaço abaixo do logo */
 }
 
-.logo-float {
-    max-width: 150px; 
+.logo-main {
+    max-width: 200px; /* Aumentei um pouco o tamanho para ficar mais proeminente no centro */
     height: auto;
-}
-
-/* Media Query: Oculta o logo flutuante em telas pequenas (mobile) */
-@media (max-width: 768px) {
-    .logo-container-float {
-        display: none; 
-    }
 }
 
 /* Estilo dos títulos e cabeçalhos */
@@ -158,6 +148,8 @@ hr {
     border-radius: 40px;
     margin-top: 20px;
     transition: background-color 0.3s ease;
+    margin-left: auto; /* Centraliza o bloco do botão */
+    margin-right: auto; /* Centraliza o bloco do botão */
 }
 
 .whatsapp-button:hover {
